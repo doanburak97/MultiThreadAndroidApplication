@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
                     if (counter == 31){counter = 0;}
 
                     try {
-                        sleep(1440000);
+                        sleep(86400000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
